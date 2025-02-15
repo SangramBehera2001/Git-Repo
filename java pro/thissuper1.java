@@ -1,9 +1,9 @@
 class Rectanglex{
     int length;
     int breadth;
-    Rectanglex(int length, int b){
+    Rectanglex(int length, int breadth){
       this.length=length;
-      breadth=b;
+      this.breadth=breadth;
     }
     void display(){
       System.out.println("Length is " + length);

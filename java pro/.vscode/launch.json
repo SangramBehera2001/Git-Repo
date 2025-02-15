@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ThisConstructor",
+      "request": "launch",
+      "mainClass": "ThisConstructor",
+      "projectName": "java pro_a2368445"
+    },
+    {
+      "type": "java",
+      "name": "DMD",
+      "request": "launch",
+      "mainClass": "DMD",
+      "projectName": "java pro_a2368445"
+    },
+    {
+      "type": "java",
+      "name": "methodOverride",
+      "request": "launch",
+      "mainClass": "methodOverride",
+      "projectName": "java pro_a2368445"
+    },
+    {
+      "type": "java",
       "name": "thissuper1",
       "request": "launch",
       "mainClass": "thissuper1",
