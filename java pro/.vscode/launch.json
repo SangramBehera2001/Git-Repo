@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NoOfRotation",
+      "request": "launch",
+      "mainClass": "NoOfRotation",
+      "projectName": "java pro_a2368445"
+    },
+    {
+      "type": "java",
+      "name": "AbstractPrac2",
+      "request": "launch",
+      "mainClass": "AbstractPrac2",
+      "projectName": "java pro_a2368445"
+    },
+    {
+      "type": "java",
+      "name": "AbstractPrac",
+      "request": "launch",
+      "mainClass": "AbstractPrac",
+      "projectName": "java pro_a2368445"
+    },
+    {
+      "type": "java",
       "name": "ThisConstructor",
       "request": "launch",
       "mainClass": "ThisConstructor",
