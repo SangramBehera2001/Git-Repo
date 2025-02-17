@@ -3,7 +3,7 @@ class parent{
     System.out.println("Non param of parent");
   }
   parent(int x){
-    System.out.println("param of parent" + x);
+    System.out.println("param of parent " + x);
   }
 }
 
@@ -19,6 +19,6 @@ class child extends parent{
 public class Inheritance2 {
   public static void main(String[] args) {
     
-  child c = new child();
+  child c = new child(10);
 }
 }
