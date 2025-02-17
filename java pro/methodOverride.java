@@ -11,8 +11,8 @@ class Sub extends Super{
 
 public class methodOverride {
   public static void main(String[] args) {
-    // Super sup = new Super();
-    // sup.display();
+    Super sup = new Super();
+    sup.display();
 
     Sub sub = new Sub();
     sub.display();
