@@ -1,9 +1,9 @@
-class Super{
+class Superk{
   public void display(){
     System.out.println("Super display ");
   }
 }
-class Sub extends Super{
+class Sub extends Superk{
   public void display(int x){
     System.out.println("Sub display ");
   }
@@ -11,8 +11,8 @@ class Sub extends Super{
 
 public class methodOverride {
   public static void main(String[] args) {
-    // Super sup = new Super();
-    // sup.display();
+    Superk sup = new Superk();
+    sup.display();
 
     Sub sub = new Sub();
     sub.display();
