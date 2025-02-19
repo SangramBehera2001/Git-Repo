@@ -8,6 +8,9 @@ public class ExceptionDemo {
     }
     catch(ArithmeticException e){
       System.out.println("Denominator should not be zero, Try again");
+
+      System.out.println(e);
+
     }
     System.out.println("bye");
   }
