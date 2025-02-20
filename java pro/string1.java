@@ -17,7 +17,7 @@ public class string1{
         System.out.println("Enter your salary: ");
         float salary = sc.nextFloat(); // Read salary
         
-        System.out.println(" name is " + name + " age is " + age + " salary is " + salary );
+        System.out.println("Name is " + name + " age is " + age + " salary is " + salary );
         
         }
       }
