@@ -15,5 +15,16 @@ public class Wrapper {
 
     System.out.println(Integer.reverse(12));
     System.out.println(Integer.toBinaryString(15));
+
+    Integer num1 = 100;
+    Integer num2 = 100;
+    System.out.println(num1 == num2); // true (Because of Integer caching)
+    System.out.println(num1.equals(num2)); // true (Same value)
+
+    Integer num3 = 200;
+    Integer num4 = 200;
+    System.out.println(num3 == num4); // false (Different memory locations)
+    System.out.println(num3.equals(num4)); // true (Same value)
+
   }
 }
